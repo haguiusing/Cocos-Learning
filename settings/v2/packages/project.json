@@ -1,0 +1,15 @@
+{
+  "__version__": "1.0.6",
+  "custom_joint_texture_layouts": [
+    {
+      "name": "Texture - 0",
+      "textureLength": 0,
+      "contents": [
+        {
+          "skeleton": "",
+          "clips": []
+        }
+      ]
+    }
+  ]
+}
