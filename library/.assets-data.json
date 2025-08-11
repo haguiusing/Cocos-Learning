@@ -1,0 +1,985 @@
+{
+  "d5e5847c-d874-46f5-9ba1-dc95fda7e074": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "077073ec-599a-4841-b2b6-0182043b1391": {
+    "url": "db://assets/Art",
+    "value": {},
+    "versionCode": 1
+  },
+  "aebd72d3-c81b-4f46-bef9-905061b17c9f": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "b5e76cfe-324e-41b0-8ba3-c7d1f6f5cec2": {
+    "url": "db://assets/Art/material.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d8960fe-a16c-44f9-99a6-ce9645dc67fe": {
+    "url": "db://assets/Scripts/Cocos基础",
+    "value": {},
+    "versionCode": 1
+  },
+  "96dfbb30-6a01-44aa-bc15-d0e6ad5a41ed": {
+    "url": "db://assets/Scripts/Cocos入门",
+    "value": {},
+    "versionCode": 1
+  },
+  "b35ceb6e-55a3-4ffc-bafb-efa3f83460ca": {
+    "url": "db://assets/Scripts/Cocos入门/Cocos入门.scene",
+    "value": {
+      "depends": [
+        "b35ceb6e-55a3-4ffc-bafb-efa3f83460ca",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "8df59bc2-9c16-4aa7-a74a-308a2fb118ba": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/图像资源.scene",
+    "value": {
+      "depends": [
+        "8df59bc2-9c16-4aa7-a74a-308a2fb118ba",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+        "1edfe8d2-bf8a-4494-b8ea-405867e9409f@f9941",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "923a3a8f-4bc1-4219-9fa6-56b005534f23": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源",
+    "value": {},
+    "versionCode": 1
+  },
+  "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1edfe8d2-bf8a-4494-b8ea-405867e9409f": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191514.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1edfe8d2-bf8a-4494-b8ea-405867e9409f@6c48a": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191514.jpg@6c48a",
+    "value": {
+      "depends": [
+        "1edfe8d2-bf8a-4494-b8ea-405867e9409f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3@6c48a": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/1.png@6c48a",
+    "value": {
+      "depends": [
+        "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3@3c318": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/1.png@3c318",
+    "value": {
+      "depends": [
+        "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3@f9941": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/1.png@f9941",
+    "value": {
+      "depends": [
+        "48a5c1fe-7a26-4e80-b281-4ce764cfb7b3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1edfe8d2-bf8a-4494-b8ea-405867e9409f@f9941": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191514.jpg@f9941",
+    "value": {
+      "depends": [
+        "1edfe8d2-bf8a-4494-b8ea-405867e9409f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@6c48a": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@6c48a",
+    "value": {
+      "depends": [
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@f9941": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@f9941",
+    "value": {
+      "depends": [
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0",
+    "value": {
+      "depends": [
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@e9a6d",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@40c10",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@8fd34",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@74afd",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@bb97f",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@7d38f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@74afd": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0@74afd",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@8fd34": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0@8fd34",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@bb97f": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0@bb97f",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@7d38f": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0@7d38f",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@e9a6d": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0@e9a6d",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@40c10": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/微信图片_20231217191515.jpg@b47c0@40c10",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b973af1f-3d3c-4115-b822-ae0fb4ac1434": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/cubemap.cubemap",
+    "value": {
+      "depends": [
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@e9a6d",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@40c10",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@8fd34",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@74afd",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@bb97f",
+        "acd7a9de-2004-4fe5-a4d7-20fb296c9b9a@b47c0@7d38f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7c45567a-8b9f-4115-94eb-7460d56fafaa": {
+    "url": "db://assets/Scripts/Cocos基础/图像资源/label-atlas.labelatlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f548b325-30fa-4f97-86bd-27655eb12fa7": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制",
+    "value": {},
+    "versionCode": 1
+  },
+  "688c58a8-49f7-472a-811e-8350a35cbb2d": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本基础",
+    "value": {},
+    "versionCode": 1
+  },
+  "5b0483fa-7d7a-41f6-8c36-ae029cff1091": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本基础/say_hello.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "10d6b34e-c01a-4f51-8210-40bad5966266": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本基础/Lesson01_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4a070aaa-ae68-45df-b114-3f62229bd5a2": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本基础/脚本基础.scene",
+    "value": {
+      "depends": [
+        "4a070aaa-ae68-45df-b114-3f62229bd5a2",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "10d6b34e-c01a-4f51-8210-40bad5966266",
+        "86c069dc-3530-4bae-9936-4710d3181b4a",
+        "b1fb308c-fc76-46ee-a9d9-45e1f58641e1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "86c069dc-3530-4bae-9936-4710d3181b4a": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本基础/Lesson02_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b1fb308c-fc76-46ee-a9d9-45e1f58641e1": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本基础/Lesson03_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "481dbbfd-8dc4-4cd4-9502-9c310713b2a5": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本进阶",
+    "value": {},
+    "versionCode": 1
+  },
+  "aab8ec54-d1d9-4d79-b5bb-d3c93e50dcdf": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用",
+    "value": {},
+    "versionCode": 1
+  },
+  "49818b00-5034-4d51-9b22-e48790632e0b": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson04_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ba892a41-31f9-4162-b613-be209a4283cf": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/脚本使用.scene",
+    "value": {
+      "depends": [
+        "ba892a41-31f9-4162-b613-be209a4283cf",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "49818b00-5034-4d51-9b22-e48790632e0b",
+        "41886ab4-b612-445a-b0c5-e523409b6cea",
+        "75ab266c-2157-489b-9a75-5c6e72965b5a",
+        "491b2a5c-721c-4b38-9111-dd9658241fc8",
+        "c7f10a7d-5fd3-4cff-91b0-ed08ec041f18",
+        "76fe3a37-3741-4cf4-a46a-2dabb3135f08",
+        "c8975b67-978b-4579-80d7-33e58e08a085",
+        "fbaa09c4-7cbf-44fe-84a5-15a41dc1e40b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "08c74240-e841-4a77-b322-26c00eaa5385": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Player.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "24fef280-74e0-4d1d-b65a-ca677fa41f26": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson05_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "41886ab4-b612-445a-b0c5-e523409b6cea": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson06_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "75ab266c-2157-489b-9a75-5c6e72965b5a": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson07_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "491b2a5c-721c-4b38-9111-dd9658241fc8": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson08_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c7f10a7d-5fd3-4cff-91b0-ed08ec041f18": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson09_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "76fe3a37-3741-4cf4-a46a-2dabb3135f08": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson10_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c8975b67-978b-4579-80d7-33e58e08a085": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本使用/Lesson11_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fbaa09c4-7cbf-44fe-84a5-15a41dc1e40b": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/脚本进阶/Lesson12_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7d040082-bb49-45fd-bcd9-56b5e08f64f9": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统",
+    "value": {},
+    "versionCode": 1
+  },
+  "2ec70436-e65a-4542-9789-45ee9fd39219": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统/事件系统.scene",
+    "value": {
+      "depends": [
+        "2ec70436-e65a-4542-9789-45ee9fd39219",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "bccf0d60-39bd-41dc-b5a0-0e72172c524c",
+        "41bfdeda-c3fc-4467-ad08-aa79130a672b",
+        "3805be3b-14ed-4e3f-957e-3b1ad560abb8",
+        "e18d278f-0277-4e03-a4c2-fd800f763370",
+        "c2984f31-aa21-4096-85f7-30b5df0a1e37"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bccf0d60-39bd-41dc-b5a0-0e72172c524c": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统/Lesson13_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "41bfdeda-c3fc-4467-ad08-aa79130a672b": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统/Lesson14_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3805be3b-14ed-4e3f-957e-3b1ad560abb8": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统/Lesson15_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e18d278f-0277-4e03-a4c2-fd800f763370": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统/Lesson16_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c2984f31-aa21-4096-85f7-30b5df0a1e37": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/事件系统/Lesson17_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "83bcab53-bb87-4c65-9132-e6b94c58b40f": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/模块规范与示例",
+    "value": {},
+    "versionCode": 1
+  },
+  "7f9ebfa7-3a31-4831-93f7-38ba4097e3a9": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/模块规范与示例/模块规范与示例.scene",
+    "value": {
+      "depends": [
+        "7f9ebfa7-3a31-4831-93f7-38ba4097e3a9",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "11f07d03-a21c-4797-acd1-3530d65260ac"
+      ]
+    },
+    "versionCode": 1
+  },
+  "11f07d03-a21c-4797-acd1-3530d65260ac": {
+    "url": "db://assets/Scripts/Cocos基础/脚本指南及事件机制/模块规范与示例/Lesson18_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0322e25e-3bcd-4199-aafc-4b23ea66645e": {
+    "url": "db://assets/Scripts/Cocos核心",
+    "value": {},
+    "versionCode": 1
+  },
+  "0a8fc0f4-d41a-4ec6-bf75-c3e677305812": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象",
+    "value": {},
+    "versionCode": 1
+  },
+  "be193a64-cfff-4a28-a278-ffd34377166b": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染",
+    "value": {},
+    "versionCode": 1
+  },
+  "1f521435-72a6-4d58-9c8a-26e36b0bfbec": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/2D 渲染.scene",
+    "value": {
+      "depends": [
+        "1f521435-72a6-4d58-9c8a-26e36b0bfbec",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "ac74fa2b-1f5b-4ff5-a3f0-f127f4483e91@f9941",
+        "c9dc6ac0-8a2d-4767-938f-1e7f4e586072",
+        "402b53cd-44f7-4571-baed-53463192d6f2",
+        "1f9beef3-ecac-45ff-898c-2964f86ca876",
+        "0b4f3d53-883f-4a9b-ae9a-21d035535b91",
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@6c48a",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "559e0746-bcd8-4347-a118-97483e660a5e",
+        "b8f7f341-c92a-40c1-abc1-99ac722a4b0d",
+        "71c1c176-41f0-4ccc-a687-a1c537d7226b",
+        "b0a0c788-6607-4460-aca2-715f7dd6a780",
+        "bd1ace95-67e5-4650-968e-54ab91856651",
+        "650174b1-3156-4848-95eb-a17c4738ea4b",
+        "e705671d-5890-4ca4-82d2-1d8fc517f36c",
+        "40967aa8-2214-4bc6-9bed-4c280547922c",
+        "44d73d28-f7f1-47a3-a9e0-807d75fa3aa2",
+        "284040a1-c739-42e9-92c6-9d0a90891112"
+      ]
+    },
+    "versionCode": 1
+  },
+  "559e0746-bcd8-4347-a118-97483e660a5e": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson19_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b8f7f341-c92a-40c1-abc1-99ac722a4b0d": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson20_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "71c1c176-41f0-4ccc-a687-a1c537d7226b": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson21_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b0a0c788-6607-4460-aca2-715f7dd6a780": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson22_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bd1ace95-67e5-4650-968e-54ab91856651": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson23_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "650174b1-3156-4848-95eb-a17c4738ea4b": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson24_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e705671d-5890-4ca4-82d2-1d8fc517f36c": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson25_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "40967aa8-2214-4bc6-9bed-4c280547922c": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson26_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "44d73d28-f7f1-47a3-a9e0-807d75fa3aa2": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson27_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d9dd36f1-1aca-45ee-a4c2-45faa0c31734": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson28_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0b4f3d53-883f-4a9b-ae9a-21d035535b91": {
+    "url": "db://assets/Art/Cocos核心/2D对象/hexa.tmx",
+    "value": {
+      "depends": [
+        "f0f89ce1-3de9-428c-9516-a79d9e9eceda@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f0f89ce1-3de9-428c-9516-a79d9e9eceda": {
+    "url": "db://assets/Art/Cocos核心/2D对象/hexa.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f0f89ce1-3de9-428c-9516-a79d9e9eceda@6c48a": {
+    "url": "db://assets/Art/Cocos核心/2D对象/hexa.png@6c48a",
+    "value": {
+      "depends": [
+        "f0f89ce1-3de9-428c-9516-a79d9e9eceda"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f0f89ce1-3de9-428c-9516-a79d9e9eceda@f9941": {
+    "url": "db://assets/Art/Cocos核心/2D对象/hexa.png@f9941",
+    "value": {
+      "depends": [
+        "f0f89ce1-3de9-428c-9516-a79d9e9eceda@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "85f78b0a-e6fe-4ebb-adf8-b7d5571229f2": {
+    "url": "db://assets/Art/Cocos核心/2D对象/hexa.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3b52f02e-c0ec-4526-abb6-63af3e2d8de7": {
+    "url": "db://assets/Art/Cocos核心",
+    "value": {},
+    "versionCode": 1
+  },
+  "25ab36f2-dbe9-44dc-a257-10ee26d9b24d": {
+    "url": "db://assets/Art/Cocos核心/2D对象",
+    "value": {},
+    "versionCode": 1
+  },
+  "402b53cd-44f7-4571-baed-53463192d6f2": {
+    "url": "db://assets/Art/Cocos核心/2D对象/NewDragonTest.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1f9beef3-ecac-45ff-898c-2964f86ca876": {
+    "url": "db://assets/Art/Cocos核心/2D对象/texture.json",
+    "value": {
+      "depends": [
+        "116cf393-f2ce-41b9-9c2a-66ab98d6d0e1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "116cf393-f2ce-41b9-9c2a-66ab98d6d0e1": {
+    "url": "db://assets/Art/Cocos核心/2D对象/texture.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "116cf393-f2ce-41b9-9c2a-66ab98d6d0e1@6c48a": {
+    "url": "db://assets/Art/Cocos核心/2D对象/texture.png@6c48a",
+    "value": {
+      "depends": [
+        "116cf393-f2ce-41b9-9c2a-66ab98d6d0e1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b8d0e6d9-53c0-4c74-b2df-17538a75c141": {
+    "url": "db://assets/Art/Cocos核心/2D对象/alien-pro.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "b8d0e6d9-53c0-4c74-b2df-17538a75c141@6c48a": {
+    "url": "db://assets/Art/Cocos核心/2D对象/alien-pro.png@6c48a",
+    "value": {
+      "depends": [
+        "b8d0e6d9-53c0-4c74-b2df-17538a75c141"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9e02199e-3dd3-4cf9-a732-2c223b1f44e5": {
+    "url": "db://assets/Art/Cocos核心/2D对象/alien-pro.json",
+    "value": {},
+    "versionCode": 1
+  },
+  "9f900ee4-e5c3-40d8-b0ce-91c2ea71a2c3": {
+    "url": "db://assets/Art/Cocos核心/2D对象/alien-pro.atlas",
+    "value": {},
+    "versionCode": 1
+  },
+  "80d7ce6f-7be3-4a7a-a2ea-9c21375d8d13": {
+    "url": "db://assets/Art/Cocos核心/2D对象/spineboy-pro.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "80d7ce6f-7be3-4a7a-a2ea-9c21375d8d13@6c48a": {
+    "url": "db://assets/Art/Cocos核心/2D对象/spineboy-pro.png@6c48a",
+    "value": {
+      "depends": [
+        "80d7ce6f-7be3-4a7a-a2ea-9c21375d8d13"
+      ]
+    },
+    "versionCode": 1
+  },
+  "132ed8a9-c936-498b-b899-3f1962ca6fe0": {
+    "url": "db://assets/Art/Cocos核心/2D对象/spineboy-pro.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "520e275e-3484-4afd-ad03-f267034806db": {
+    "url": "db://assets/Art/Cocos核心/2D对象/SpineBoy.prefab",
+    "value": {
+      "depends": [
+        "c9dc6ac0-8a2d-4767-938f-1e7f4e586072"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "c9dc6ac0-8a2d-4767-938f-1e7f4e586072": {
+    "url": "db://assets/Art/Cocos核心/2D对象/spineboy-pro.json",
+    "value": {
+      "depends": [
+        "80d7ce6f-7be3-4a7a-a2ea-9c21375d8d13@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "284040a1-c739-42e9-92c6-9d0a90891112": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson29_.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fcbd518e-f692-4210-b10d-fac77013eac0": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统",
+    "value": {},
+    "versionCode": 1
+  },
+  "d4039b3a-4d87-4380-9e25-94985672c928": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件",
+    "value": {},
+    "versionCode": 1
+  },
+  "d81eabeb-c2cf-489f-a23b-aa1004860761": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson01_Canvas.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "63ccb18f-eefe-4334-8ab1-6bc55e52a084": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/UI组件.scene",
+    "value": {
+      "depends": [
+        "63ccb18f-eefe-4334-8ab1-6bc55e52a084",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "afc47931-f066-46b0-90be-9fe61f213428@f9941",
+        "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941",
+        "9fd900dd-221b-4f89-8f2c-fba34243c835@f9941",
+        "158e7e52-3220-4cd7-9694-713e0e6e8278@f9941",
+        "11bdc4b0-64a8-4eb7-a2a7-9fb9e233e977@f9941",
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "28765e2f-040a-4c65-8e8c-f9d0bb79d863@f9941",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+        "2be36297-9abb-4fee-8049-9ed5e271da8a",
+        "1263d74c-8167-4928-91a6-4e2672411f47@8abdc",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "64247f19-acd9-494d-b190-d2597d10a6d7",
+        "3b41d951-687c-42e8-9791-0cfc3b149d8a",
+        "8dd19db9-9641-402c-8b3e-69767c3eb3d6",
+        "d60d1f44-86f2-47cd-a145-aaa3d19d7c92",
+        "faffbe9d-ae3d-42ca-81c0-2bcc2c66e0ac",
+        "83696b07-060c-4230-a57a-4efba0f1f028",
+        "3a231e81-e768-4254-a95e-cdf202b83d0d",
+        "16eeb8bc-f0b7-4048-b332-0ac028982711",
+        "722c02a5-f1df-4205-a70b-60cf27976105",
+        "95ddf77d-a229-4ed0-8d33-3bb4df55569a",
+        "3846d9e4-c140-4d87-aa78-e9adb72aecbe",
+        "a8134995-225f-422c-b6c0-2b64f7e9ac86",
+        "104d6803-edcd-4556-acac-05f4f73a580b",
+        "b183dc48-683b-46a1-b4fa-249a38427a4b",
+        "72122b4c-2911-4a33-881c-60a4eb9e1f24",
+        "0e927b01-9502-4a96-9c91-6bb35d47b905",
+        "3574fd69-091c-4b52-b19b-44dbc731f282",
+        "6948eecf-42d7-425e-a7ca-41385f8a2e1b",
+        "dc14e665-8bf6-4f8a-83ee-6630cf71ceff",
+        "579d872e-4be7-4933-8737-ffa5c3a1c951",
+        "65dcbbbc-c094-4b89-9686-ff504eeaf40c",
+        "a775e065-e75c-4f95-bdbd-ab1a13813cf8",
+        "10773938-8cd6-422a-b456-986be233cad7",
+        "cfa6f776-a834-462f-83eb-12471f9996e8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "65dcbbbc-c094-4b89-9686-ff504eeaf40c": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson30_Canvas.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "136b6022-1a0a-456a-8aa5-e29930986f9c": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson27_TiledMap.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "19b62373-e767-4140-b593-0b4fc4b1e712": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson28_TiledTile.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c6f19f6e-abb0-4274-b5bd-804dd3168884": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/2D 渲染/Lesson29_MotionStreak.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a775e065-e75c-4f95-bdbd-ab1a13813cf8": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson31_UITransform.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "10773938-8cd6-422a-b456-986be233cad7": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson32_Widget.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "64247f19-acd9-494d-b190-d2597d10a6d7": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson33_Button.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3b41d951-687c-42e8-9791-0cfc3b149d8a": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson34_Layout.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8dd19db9-9641-402c-8b3e-69767c3eb3d6": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson35_EditBox.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "faffbe9d-ae3d-42ca-81c0-2bcc2c66e0ac": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson36_ScrollView.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d60d1f44-86f2-47cd-a145-aaa3d19d7c92": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson37_ScrollBar.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "83696b07-060c-4230-a57a-4efba0f1f028": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson38_ProgressBar.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3a231e81-e768-4254-a95e-cdf202b83d0d": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson39_LabelOutline.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "16eeb8bc-f0b7-4048-b332-0ac028982711": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson40_LabelShadow.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "722c02a5-f1df-4205-a70b-60cf27976105": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson41_Toggle.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "95ddf77d-a229-4ed0-8d33-3bb4df55569a": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson42_ToggleContainer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3846d9e4-c140-4d87-aa78-e9adb72aecbe": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson43_Slider.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "104d6803-edcd-4556-acac-05f4f73a580b": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson44_PageView.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a8134995-225f-422c-b6c0-2b64f7e9ac86": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson45_PageViewIndicator.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b183dc48-683b-46a1-b4fa-249a38427a4b": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson46_UIMeshRenderer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cfa6f776-a834-462f-83eb-12471f9996e8": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson47_UICoordinateTracker.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "72122b4c-2911-4a33-881c-60a4eb9e1f24": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson48_UIOpacity.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0e927b01-9502-4a96-9c91-6bb35d47b905": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson49_UISkew.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3574fd69-091c-4b52-b19b-44dbc731f282": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson50_BlockInputEvents.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6948eecf-42d7-425e-a7ca-41385f8a2e1b": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson51_WebView.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc14e665-8bf6-4f8a-83ee-6630cf71ceff": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson52_VideoPlayer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "579d872e-4be7-4933-8737-ffa5c3a1c951": {
+    "url": "db://assets/Scripts/Cocos核心/2D 对象/UI系统/UI组件/Lesson53_SafeArea.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "81776afd-b158-4d66-a889-fe9a47b79f19": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统",
+    "value": {},
+    "versionCode": 1
+  },
+  "ae7c9b99-0c2d-45ea-943e-9ffa9096d45c": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统/动画编辑器",
+    "value": {},
+    "versionCode": 1
+  },
+  "fd04cab4-36d9-416c-b800-b853fc71f9ee": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统/动画编辑器/动画编辑器.scene",
+    "value": {
+      "depends": [
+        "fd04cab4-36d9-416c-b800-b853fc71f9ee",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@40ece",
+        "ea7478b0-408d-4052-b703-f0d2355e095f",
+        "b5b27ab1-e740-4398-b407-848fc2b2c897@6c48a",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+        "f8a6091f-e259-4353-9459-6396f34bfd99",
+        "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "f8a6091f-e259-4353-9459-6396f34bfd99": {
+    "url": "db://assets/Art/Cocos核心/动画系统/动画编辑器/animation.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "52b7ae00-6e65-4323-b313-a914435053df": {
+    "url": "db://assets/Art/Cocos核心/动画系统",
+    "value": {},
+    "versionCode": 1
+  },
+  "e0990a3e-d3c9-44c2-ab05-7434733f93dd": {
+    "url": "db://assets/Art/Cocos核心/动画系统/动画编辑器",
+    "value": {},
+    "versionCode": 1
+  },
+  "c6c48665-75d5-4edd-b237-d2e4c05c1822": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统/动画编辑器/Lesson01_Animation.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8ca8303c-c690-467b-bd61-03728b988f88": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统/动画编辑器/setupMaterialPropertyTrack.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "68523233-7e09-4034-b43e-d193ae6ad19a": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统/骨骼动画",
+    "value": {},
+    "versionCode": 1
+  },
+  "19891c7f-5571-49d1-babe-a3748d04ef54": {
+    "url": "db://assets/Scripts/Cocos核心/动画系统/骨骼动画/骨骼动画.scene",
+    "value": {
+      "depends": [
+        "19891c7f-5571-49d1-babe-a3748d04ef54",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "fe9aa7df-9e55-4a30-b680-f186d5bfdcd7": {
+    "url": "db://assets/Scripts/Cocos核心/音频系统",
+    "value": {},
+    "versionCode": 1
+  },
+  "60348315-cac1-46a1-952f-6af552ee218e": {
+    "url": "db://assets/Scripts/Cocos核心/音频系统/音频系统.scene",
+    "value": {
+      "depends": [
+        "60348315-cac1-46a1-952f-6af552ee218e",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "bd9c4e38-81dd-493a-bb7f-8cc3a9335472"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bd9c4e38-81dd-493a-bb7f-8cc3a9335472": {
+    "url": "db://assets/Scripts/Cocos核心/音频系统/AudioController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "514de386-404e-4006-ab37-e247754f30ee": {
+    "url": "db://assets/Scripts/Cocos核心/音频系统/AudioMgr.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

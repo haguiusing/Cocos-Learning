@@ -1,0 +1,702 @@
+2025-8-10 20:25:36-log: Cannot access game frame or container.
+2025-8-10 20:25:37-debug: asset-db:require-engine-code (1825ms)
+2025-8-10 20:25:37-log: meshopt wasm decoder initialized
+2025-8-10 20:25:37-log: [bullet]:bullet wasm lib loaded.
+2025-8-10 20:25:37-log: [box2d]:box2d wasm lib loaded.
+2025-8-10 20:25:37-log: Cocos Creator v3.8.6
+2025-8-10 20:25:37-log: Using legacy pipeline
+2025-8-10 20:25:37-log: Forward render pipeline initialized.
+2025-8-10 20:25:37-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:33.08MB, end 80.14MB, increase: 47.06MB
+2025-8-10 20:25:37-debug: [Assets Memory track]: asset-db-plugin-register: programming start:80.94MB, end 82.99MB, increase: 2.05MB
+2025-8-10 20:25:41-debug: [Assets Memory track]: asset-db-plugin-register: builder start:83.02MB, end 288.15MB, increase: 205.13MB
+2025-8-10 20:25:41-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:80.16MB, end 287.30MB, increase: 207.13MB
+2025-8-10 20:25:41-debug: [Assets Memory track]: asset-db-plugin-register: project start:80.81MB, end 287.27MB, increase: 206.45MB
+2025-8-10 20:25:41-debug: asset-db:worker-init: initPlugin (4500ms)
+2025-8-10 20:25:41-debug: Run asset db hook programming:beforePreStart success!
+2025-8-10 20:25:41-debug: [Assets Memory track]: asset-db:worker-init start:33.07MB, end 287.40MB, increase: 254.33MB
+2025-8-10 20:25:41-debug: Run asset db hook programming:beforePreStart ...
+2025-8-10 20:25:41-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-8-10 20:25:41-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-8-10 20:25:42-debug: asset-db:worker-init (6901ms)
+2025-8-10 20:25:42-debug: asset-db-hook-engine-extends-beforePreStart (258ms)
+2025-8-10 20:25:42-debug: asset-db-hook-programming-beforePreStart (261ms)
+2025-8-10 20:25:42-debug: Preimport db internal success
+2025-8-10 20:25:42-debug: Preimport db assets success
+2025-8-10 20:25:42-debug: Run asset db hook programming:afterPreStart ...
+2025-8-10 20:25:42-debug: starting packer-driver...
+2025-8-10 20:25:46-debug: initialize scripting environment...
+2025-8-10 20:25:46-debug: [[Executor]] prepare before lock
+2025-8-10 20:25:46-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-8-10 20:25:46-debug: Run asset db hook programming:afterPreStart success!
+2025-8-10 20:25:46-debug: [[Executor]] prepare after unlock
+2025-8-10 20:25:46-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-8-10 20:25:46-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-8-10 20:25:46-debug: [Assets Memory track]: asset-db:worker-init: preStart start:287.42MB, end 291.14MB, increase: 3.72MB
+2025-8-10 20:25:46-debug: Start up the 'internal' database...
+2025-8-10 20:25:46-debug: asset-db-hook-programming-afterPreStart (4614ms)
+2025-8-10 20:25:46-debug: asset-db:worker-effect-data-processing (722ms)
+2025-8-10 20:25:46-debug: asset-db-hook-engine-extends-afterPreStart (722ms)
+2025-8-10 20:25:47-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:287.50MB, end 308.25MB, increase: 20.76MB
+2025-8-10 20:25:47-debug: Start up the 'assets' database...
+2025-8-10 20:25:47-debug: asset-db:worker-startup-database[internal] (5176ms)
+2025-8-10 20:25:47-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:292.74MB, end 305.67MB, increase: 12.94MB
+2025-8-10 20:25:47-debug: lazy register asset handler *
+2025-8-10 20:25:47-debug: lazy register asset handler text
+2025-8-10 20:25:47-debug: lazy register asset handler json
+2025-8-10 20:25:47-debug: lazy register asset handler spine-data
+2025-8-10 20:25:47-debug: lazy register asset handler dragonbones
+2025-8-10 20:25:47-debug: lazy register asset handler dragonbones-atlas
+2025-8-10 20:25:47-debug: lazy register asset handler terrain
+2025-8-10 20:25:47-debug: lazy register asset handler directory
+2025-8-10 20:25:47-debug: lazy register asset handler javascript
+2025-8-10 20:25:47-debug: lazy register asset handler typescript
+2025-8-10 20:25:47-debug: lazy register asset handler scene
+2025-8-10 20:25:47-debug: lazy register asset handler prefab
+2025-8-10 20:25:47-debug: [Assets Memory track]: asset-db:worker-init: startup start:291.15MB, end 305.69MB, increase: 14.54MB
+2025-8-10 20:25:47-debug: lazy register asset handler sprite-frame
+2025-8-10 20:25:47-debug: lazy register asset handler image
+2025-8-10 20:25:47-debug: lazy register asset handler buffer
+2025-8-10 20:25:47-debug: lazy register asset handler alpha-image
+2025-8-10 20:25:47-debug: lazy register asset handler tiled-map
+2025-8-10 20:25:47-debug: lazy register asset handler sign-image
+2025-8-10 20:25:47-debug: lazy register asset handler texture-cube
+2025-8-10 20:25:47-debug: lazy register asset handler erp-texture-cube
+2025-8-10 20:25:47-debug: lazy register asset handler render-texture
+2025-8-10 20:25:47-debug: lazy register asset handler rt-sprite-frame
+2025-8-10 20:25:47-debug: lazy register asset handler texture-cube-face
+2025-8-10 20:25:47-debug: lazy register asset handler texture
+2025-8-10 20:25:47-debug: lazy register asset handler gltf-mesh
+2025-8-10 20:25:47-debug: lazy register asset handler gltf-animation
+2025-8-10 20:25:47-debug: lazy register asset handler gltf-skeleton
+2025-8-10 20:25:47-debug: lazy register asset handler gltf
+2025-8-10 20:25:47-debug: lazy register asset handler gltf-scene
+2025-8-10 20:25:47-debug: lazy register asset handler gltf-embeded-image
+2025-8-10 20:25:47-debug: lazy register asset handler fbx
+2025-8-10 20:25:47-debug: lazy register asset handler gltf-material
+2025-8-10 20:25:47-debug: lazy register asset handler physics-material
+2025-8-10 20:25:47-debug: lazy register asset handler effect
+2025-8-10 20:25:47-debug: lazy register asset handler effect-header
+2025-8-10 20:25:47-debug: lazy register asset handler audio-clip
+2025-8-10 20:25:47-debug: lazy register asset handler animation-clip
+2025-8-10 20:25:47-debug: lazy register asset handler animation-graph
+2025-8-10 20:25:47-debug: lazy register asset handler animation-graph-variant
+2025-8-10 20:25:47-debug: lazy register asset handler material
+2025-8-10 20:25:47-debug: lazy register asset handler animation-mask
+2025-8-10 20:25:47-debug: lazy register asset handler bitmap-font
+2025-8-10 20:25:47-debug: lazy register asset handler ttf-font
+2025-8-10 20:25:47-debug: lazy register asset handler sprite-atlas
+2025-8-10 20:25:47-debug: lazy register asset handler auto-atlas
+2025-8-10 20:25:47-debug: lazy register asset handler label-atlas
+2025-8-10 20:25:47-debug: lazy register asset handler render-pipeline
+2025-8-10 20:25:47-debug: lazy register asset handler render-stage
+2025-8-10 20:25:47-debug: lazy register asset handler particle
+2025-8-10 20:25:47-debug: lazy register asset handler render-flow
+2025-8-10 20:25:47-debug: lazy register asset handler instantiation-material
+2025-8-10 20:25:47-debug: lazy register asset handler instantiation-mesh
+2025-8-10 20:25:47-debug: lazy register asset handler instantiation-animation
+2025-8-10 20:25:47-debug: lazy register asset handler instantiation-skeleton
+2025-8-10 20:25:47-debug: lazy register asset handler video-clip
+2025-8-10 20:25:47-debug: asset-db:worker-startup-database[assets] (4917ms)
+2025-8-10 20:25:47-debug: asset-db:start-database (5289ms)
+2025-8-10 20:25:47-debug: asset-db:ready (18470ms)
+2025-8-10 20:25:47-debug: fix the bug of updateDefaultUserData
+2025-8-10 20:25:47-debug: init worker message success
+2025-8-10 20:25:48-debug: [Build Memory track]: builder:worker-init start:308.45MB, end 199.55MB, increase: -111505.97KB
+2025-8-10 20:25:48-debug: programming:execute-script (1314ms)
+2025-8-10 20:25:48-debug: builder:worker-init (1301ms)
+2025-8-10 20:25:57-debug: refresh db internal success
+2025-8-10 20:25:57-debug: refresh db assets success
+2025-8-10 20:25:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 20:25:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 20:25:57-debug: asset-db:refresh-all-database (278ms)
+2025-8-10 20:25:57-debug: asset-db:worker-effect-data-processing (4ms)
+2025-8-10 20:25:57-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+2025-8-10 20:26:18-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\动画编辑器.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-10 20:26:18-debug: asset-db:reimport-assetfd04cab4-36d9-416c-b800-b853fc71f9ee (22ms)
+2025-8-10 20:29:59-debug: refresh db internal success
+2025-8-10 20:29:59-debug: refresh db assets success
+2025-8-10 20:29:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 20:29:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 20:29:59-debug: asset-db:refresh-all-database (162ms)
+2025-8-10 20:29:59-debug: asset-db:worker-effect-data-processing (3ms)
+2025-8-10 20:29:59-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 20:30:14-debug: refresh db internal success
+2025-8-10 20:30:14-debug: refresh db assets success
+2025-8-10 20:30:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 20:30:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 20:30:14-debug: asset-db:refresh-all-database (206ms)
+2025-8-10 20:30:14-debug: asset-db:worker-effect-data-processing (3ms)
+2025-8-10 20:30:14-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2025-8-10 20:30:17-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器\animation.animbackground: #aaff85; color: #000;color: #000;
+2025-8-10 20:30:17-debug: asset-db:reimport-assetf8a6091f-e259-4353-9459-6396f34bfd99 (15ms)
+2025-8-10 20:30:36-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\动画编辑器.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-10 20:30:36-debug: asset-db:reimport-assetfd04cab4-36d9-416c-b800-b853fc71f9ee (13ms)
+2025-8-10 20:31:25-debug: refresh db internal success
+2025-8-10 20:31:25-debug: refresh db assets success
+2025-8-10 20:31:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 20:31:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 20:31:25-debug: asset-db:refresh-all-database (307ms)
+2025-8-10 20:31:25-debug: asset-db:worker-effect-data-processing (6ms)
+2025-8-10 20:31:25-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2025-8-10 20:31:45-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器\animation.animbackground: #aaff85; color: #000;color: #000;
+2025-8-10 20:31:45-debug: asset-db:reimport-assetf8a6091f-e259-4353-9459-6396f34bfd99 (12ms)
+2025-8-10 20:32:48-debug: refresh db internal success
+2025-8-10 20:32:48-debug: refresh db assets success
+2025-8-10 20:32:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 20:32:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 20:32:48-debug: asset-db:refresh-all-database (155ms)
+2025-8-10 20:32:48-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 20:32:48-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 20:33:01-debug: Cannot find the asset handler of operate open for importer animation-clip
+2025-8-10 22:16:35-debug: refresh db internal success
+2025-8-10 22:16:35-debug: refresh db assets success
+2025-8-10 22:16:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:16:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:16:35-debug: asset-db:refresh-all-database (174ms)
+2025-8-10 22:16:35-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:16:35-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:16:37-debug: refresh db internal success
+2025-8-10 22:16:37-debug: refresh db assets success
+2025-8-10 22:16:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:16:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:16:37-debug: asset-db:refresh-all-database (151ms)
+2025-8-10 22:16:37-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:16:37-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:17:43-debug: refresh db internal success
+2025-8-10 22:17:43-debug: refresh db assets success
+2025-8-10 22:17:43-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:17:43-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:17:43-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:17:43-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:17:43-debug: asset-db:refresh-all-database (153ms)
+2025-8-10 22:18:42-debug: refresh db internal success
+2025-8-10 22:18:42-debug: refresh db assets success
+2025-8-10 22:18:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:18:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:18:42-debug: asset-db:refresh-all-database (146ms)
+2025-8-10 22:18:42-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:18:42-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:20:36-debug: refresh db internal success
+2025-8-10 22:20:37-debug: refresh db assets success
+2025-8-10 22:20:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:20:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:20:37-debug: asset-db:refresh-all-database (131ms)
+2025-8-10 22:20:37-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:20:37-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:21:07-debug: refresh db internal success
+2025-8-10 22:21:07-debug: refresh db assets success
+2025-8-10 22:21:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:21:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:21:07-debug: asset-db:refresh-all-database (134ms)
+2025-8-10 22:21:07-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:21:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-8-10 22:21:12-debug: refresh db internal success
+2025-8-10 22:21:12-debug: refresh db assets success
+2025-8-10 22:21:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:21:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:21:12-debug: asset-db:worker-effect-data-processing (3ms)
+2025-8-10 22:21:12-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2025-8-10 22:21:12-debug: asset-db:refresh-all-database (168ms)
+2025-8-10 22:21:14-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器\animation.animbackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:21:14-debug: asset-db:reimport-assetf8a6091f-e259-4353-9459-6396f34bfd99 (17ms)
+2025-8-10 22:23:00-debug: refresh db internal success
+2025-8-10 22:23:00-debug: refresh db assets success
+2025-8-10 22:23:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:23:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:23:00-debug: asset-db:refresh-all-database (230ms)
+2025-8-10 22:23:00-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:23:00-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:23:17-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\Lesson01_Animation.ts...
+2025-8-10 22:23:17-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\Lesson01_Animation.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:23:17-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器 success
+2025-8-10 22:23:17-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器background: #aaff85; color: #000;color: #000;
+2025-8-10 22:24:56-debug: refresh db internal success
+2025-8-10 22:24:56-debug: refresh db assets success
+2025-8-10 22:24:56-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:24:56-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:24:56-debug: asset-db:refresh-all-database (137ms)
+2025-8-10 22:24:56-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:24:56-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:25:04-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\setupMaterialPropertyTrack.ts...
+2025-8-10 22:25:04-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\setupMaterialPropertyTrack.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:25:05-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器 success
+2025-8-10 22:25:05-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器background: #aaff85; color: #000;color: #000;
+2025-8-10 22:25:17-debug: refresh db internal success
+2025-8-10 22:25:17-debug: refresh db assets success
+2025-8-10 22:25:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:25:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:25:17-debug: asset-db:refresh-all-database (141ms)
+2025-8-10 22:25:17-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:25:17-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:50:17-debug: refresh db internal success
+2025-8-10 22:50:17-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\Lesson01_Animation.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:50:17-debug: refresh db assets success
+2025-8-10 22:50:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:50:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:50:17-debug: asset-db:refresh-all-database (151ms)
+2025-8-10 22:50:17-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:50:17-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:51:03-debug: refresh db internal success
+2025-8-10 22:51:03-debug: refresh db assets success
+2025-8-10 22:51:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:51:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:51:03-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:51:03-debug: asset-db:refresh-all-database (133ms)
+2025-8-10 22:51:03-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:51:18-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画...
+2025-8-10 22:51:18-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画background: #aaff85; color: #000;color: #000;
+2025-8-10 22:51:18-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统 success
+2025-8-10 22:51:18-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统background: #aaff85; color: #000;color: #000;
+2025-8-10 22:51:20-debug: refresh db internal success
+2025-8-10 22:51:20-debug: refresh db assets success
+2025-8-10 22:51:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:51:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:51:20-debug: asset-db:refresh-all-database (412ms)
+2025-8-10 22:51:20-debug: asset-db:worker-effect-data-processing (4ms)
+2025-8-10 22:51:20-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+2025-8-10 22:51:24-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画\骨骼动画.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:51:24-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画\骨骼动画.scene...
+2025-8-10 22:51:24-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画 success
+2025-8-10 22:51:24-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画background: #aaff85; color: #000;color: #000;
+2025-8-10 22:53:01-debug: refresh db internal success
+2025-8-10 22:53:01-debug: refresh db assets success
+2025-8-10 22:53:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:53:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:53:01-debug: asset-db:refresh-all-database (137ms)
+2025-8-10 22:53:01-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:53:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-8-10 22:53:08-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统...
+2025-8-10 22:53:08-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统background: #aaff85; color: #000;color: #000;
+2025-8-10 22:53:08-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心 success
+2025-8-10 22:53:08-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心background: #aaff85; color: #000;color: #000;
+2025-8-10 22:53:13-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\音频系统.scene...
+2025-8-10 22:53:13-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\音频系统.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:53:13-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统 success
+2025-8-10 22:53:13-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统background: #aaff85; color: #000;color: #000;
+2025-8-10 22:56:05-debug: refresh db internal success
+2025-8-10 22:56:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:56:05-debug: refresh db assets success
+2025-8-10 22:56:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:56:05-debug: asset-db:worker-effect-data-processing (3ms)
+2025-8-10 22:56:05-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2025-8-10 22:56:05-debug: asset-db:refresh-all-database (174ms)
+2025-8-10 22:56:14-debug: refresh db internal success
+2025-8-10 22:56:14-debug: refresh db assets success
+2025-8-10 22:56:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:56:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:56:14-debug: asset-db:refresh-all-database (199ms)
+2025-8-10 22:56:14-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:56:14-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:56:17-debug: refresh db internal success
+2025-8-10 22:56:17-debug: refresh db assets success
+2025-8-10 22:56:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:56:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:56:17-debug: asset-db:worker-effect-data-processing (3ms)
+2025-8-10 22:56:17-debug: asset-db:refresh-all-database (170ms)
+2025-8-10 22:56:17-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:57:00-debug: refresh db internal success
+2025-8-10 22:57:00-debug: refresh db assets success
+2025-8-10 22:57:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:57:00-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-10 22:57:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:57:00-debug: asset-db:refresh-all-database (167ms)
+2025-8-10 22:57:00-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 22:57:07-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioController.ts...
+2025-8-10 22:57:07-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioController.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:57:07-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统 success
+2025-8-10 22:57:07-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统background: #aaff85; color: #000;color: #000;
+2025-8-10 22:57:50-debug: refresh db internal success
+2025-8-10 22:57:50-debug: refresh db assets success
+2025-8-10 22:57:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:57:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:57:50-debug: asset-db:refresh-all-database (132ms)
+2025-8-10 22:57:50-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 22:57:50-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 22:59:50-debug: refresh db internal success
+2025-8-10 22:59:50-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioController.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:59:50-debug: refresh db assets success
+2025-8-10 22:59:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 22:59:50-debug: asset-db:refresh-all-database (163ms)
+2025-8-10 22:59:50-debug: asset-db:worker-effect-data-processing (6ms)
+2025-8-10 22:59:50-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2025-8-10 22:59:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 22:59:58-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\音频系统.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-10 22:59:58-debug: asset-db:reimport-asset60348315-cac1-46a1-952f-6af552ee218e (12ms)
+2025-8-10 23:00:11-debug: refresh db internal success
+2025-8-10 23:00:11-debug: refresh db assets success
+2025-8-10 23:00:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 23:00:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 23:00:11-debug: asset-db:refresh-all-database (151ms)
+2025-8-10 23:00:11-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-10 23:00:11-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-10 23:00:22-debug: start refresh asset from G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioMgr.ts...
+2025-8-10 23:00:22-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioMgr.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 23:00:22-debug: refresh asset G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统 success
+2025-8-10 23:00:22-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统background: #aaff85; color: #000;color: #000;
+2025-8-10 23:00:51-debug: refresh db internal success
+2025-8-10 23:00:51-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioMgr.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 23:00:51-debug: refresh db assets success
+2025-8-10 23:00:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 23:00:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 23:00:51-debug: asset-db:refresh-all-database (313ms)
+2025-8-10 23:00:51-debug: asset-db-hook-engine-extends-afterRefresh (9ms)
+2025-8-10 23:00:51-debug: asset-db:worker-effect-data-processing (8ms)
+2025-8-10 23:05:18-debug: refresh db internal success
+2025-8-10 23:05:18-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioController.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 23:05:18-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioMgr.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-10 23:05:18-debug: refresh db assets success
+2025-8-10 23:05:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 23:05:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 23:05:18-debug: asset-db:refresh-all-database (178ms)
+2025-8-10 23:05:18-debug: asset-db-hook-engine-extends-afterRefresh (7ms)
+2025-8-10 23:05:18-debug: asset-db:worker-effect-data-processing (5ms)
+2025-8-10 23:05:25-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\音频系统.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-10 23:05:25-debug: asset-db:reimport-asset60348315-cac1-46a1-952f-6af552ee218e (25ms)
+2025-8-10 23:05:26-debug: refresh db internal success
+2025-8-10 23:05:26-debug: refresh db assets success
+2025-8-10 23:05:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 23:05:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 23:05:26-debug: asset-db:refresh-all-database (319ms)
+2025-8-10 23:05:26-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2025-8-10 23:05:26-debug: asset-db:worker-effect-data-processing (4ms)
+2025-8-10 23:06:10-debug: refresh db internal success
+2025-8-10 23:06:10-debug: refresh db assets success
+2025-8-10 23:06:10-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-10 23:06:10-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-10 23:06:10-debug: asset-db:refresh-all-database (178ms)
+2025-8-10 23:06:10-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-10 23:06:10-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Artbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: refresh db internal success
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scriptsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos入门background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\模块规范与示例background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本进阶background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson13_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson14_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson15_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson16_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson17_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\模块规范与示例\Lesson18_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson04_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson05_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson07_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson08_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson09_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson10_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson11_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Player.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson06_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\Lesson01_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\Lesson02_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\Lesson03_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\say_hello.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本进阶\Lesson12_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson19_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson21_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson20_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson23_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson22_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson25_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson24_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson26_.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson27_TiledMap.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson28_TiledTile.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson30_Canvas.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson29_MotionStreak.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson31_UITransform.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson32_Widget.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson33_Button.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson34_Layout.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson35_EditBox.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson36_ScrollView.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson37_ScrollBar.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson38_ProgressBar.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson39_LabelOutline.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson40_LabelShadow.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson41_Toggle.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson42_ToggleContainer.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson44_PageView.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson45_PageViewIndicator.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson43_Slider.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson46_UIMeshRenderer.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson47_UICoordinateTracker.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson48_UIOpacity.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson49_UISkew.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson50_BlockInputEvents.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson51_WebView.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson53_SafeArea.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson52_VideoPlayer.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\material.mtlbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos入门\Cocos入门.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.tsxbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.tmxbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.atlasbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\NewDragonTest.jsonbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.jsonbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\SpineBoy.prefabbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.jsonbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\1.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\cubemap.cubemapbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\label-atlas.labelatlasbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\1.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\图像资源.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191514.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@74afdbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器\animation.animbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191514.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\事件系统.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\模块规范与示例\模块规范与示例.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191514.jpgbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\脚本使用.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@8fd34background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\脚本基础.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\2D 渲染.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\动画编辑器.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\UI组件.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\Lesson01_Animation.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\setupMaterialPropertyTrack.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画\骨骼动画.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@bb97fbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\音频系统.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioController.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioMgr.tsbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@7d38fbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@e9a6dbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@40c10background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0background: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:22-debug: %cDestroy%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpgbackground: #ffb8b8; color: #000;color: #000;
+2025-8-11 10:39:23-error: G:\CocosProjects\Cocos-Learning\assets\Scenes.meta is not exist! will use cache meta.
+2025-8-11 10:39:23-debug: refresh db assets success
+2025-8-11 10:39:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:39:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:39:23-debug: asset-db:refresh-all-database (937ms)
+2025-8-11 10:39:23-debug: asset-db-hook-engine-extends-afterRefresh (75ms)
+2025-8-11 10:39:23-debug: asset-db:worker-effect-data-processing (68ms)
+2025-8-11 10:47:16-debug: refresh db internal success
+2025-8-11 10:47:16-debug: refresh db assets success
+2025-8-11 10:47:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:47:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:47:16-debug: asset-db:refresh-all-database (319ms)
+2025-8-11 10:47:16-debug: asset-db:worker-effect-data-processing (7ms)
+2025-8-11 10:47:16-debug: asset-db-hook-engine-extends-afterRefresh (11ms)
+2025-8-11 10:47:30-debug: refresh db internal success
+2025-8-11 10:47:30-debug: refresh db assets success
+2025-8-11 10:47:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:47:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:47:30-debug: asset-db:worker-effect-data-processing (3ms)
+2025-8-11 10:47:30-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-11 10:47:30-debug: asset-db:refresh-all-database (207ms)
+2025-8-11 10:47:33-debug: refresh db internal success
+2025-8-11 10:47:33-debug: refresh db assets success
+2025-8-11 10:47:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:47:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:47:33-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-11 10:47:33-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-11 10:47:33-debug: asset-db:refresh-all-database (249ms)
+2025-8-11 10:47:38-debug: refresh db internal success
+2025-8-11 10:47:38-debug: refresh db assets success
+2025-8-11 10:47:38-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:47:38-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:47:38-debug: asset-db:refresh-all-database (153ms)
+2025-8-11 10:47:38-debug: asset-db:worker-effect-data-processing (6ms)
+2025-8-11 10:47:38-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2025-8-11 10:49:51-debug: refresh db internal success
+2025-8-11 10:49:51-debug: refresh db assets success
+2025-8-11 10:49:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:49:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:49:51-debug: asset-db:refresh-all-database (116ms)
+2025-8-11 10:49:51-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-11 10:49:51-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-11 10:49:54-debug: refresh db internal success
+2025-8-11 10:49:54-debug: refresh db assets success
+2025-8-11 10:49:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:49:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:49:54-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-11 10:49:54-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-8-11 10:49:54-debug: asset-db:refresh-all-database (404ms)
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Artbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: refresh db internal success
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos入门background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\模块规范与示例background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本进阶background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioController.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\AudioMgr.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson13_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson14_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson15_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson16_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\Lesson17_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\模块规范与示例\Lesson18_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson04_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson05_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson06_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson07_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson08_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson10_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson09_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Lesson11_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\Player.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\Lesson01_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\Lesson02_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\Lesson03_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\say_hello.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本进阶\Lesson12_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson19_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson20_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson21_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson22_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson23_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson24_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson25_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson26_.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson27_TiledMap.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson28_TiledTile.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\Lesson29_MotionStreak.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\Lesson01_Animation.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\setupMaterialPropertyTrack.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson30_Canvas.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson31_UITransform.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson32_Widget.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson33_Button.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson34_Layout.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson35_EditBox.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson36_ScrollView.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson37_ScrollBar.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson38_ProgressBar.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson39_LabelOutline.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson40_LabelShadow.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson41_Toggle.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson42_ToggleContainer.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson43_Slider.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson44_PageView.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson45_PageViewIndicator.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson46_UIMeshRenderer.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson48_UIOpacity.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson50_BlockInputEvents.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson47_UICoordinateTracker.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson49_UISkew.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson51_WebView.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson52_VideoPlayer.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\Lesson53_SafeArea.tsbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\material.mtlbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.tsxbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.tmxbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos入门\Cocos入门.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.pngbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\NewDragonTest.jsonbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.atlasbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:30-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.jsonbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.pngbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-log: UUID is initialized for G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.png.
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\SpineBoy.prefabbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.jsonbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.pngbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\1.pngbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\cubemap.cubemapbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.png@f9941background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\label-atlas.labelatlasbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\图像资源.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191514.jpgbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpgbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\音频系统\音频系统.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\动画系统\动画编辑器\animation.animbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\事件系统\事件系统.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\模块规范与示例\模块规范与示例.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本使用\脚本使用.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\脚本指南及事件机制\脚本基础\脚本基础.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191514.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\2D 渲染\2D 渲染.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\动画编辑器\动画编辑器.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191514.jpg@f9941background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\动画系统\骨骼动画\骨骼动画.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos核心\2D 对象\UI系统\UI组件\UI组件.scenebackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scenesbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@74afdbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@8fd34background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@bb97fbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@7d38fbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@e9a6dbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Scripts\Cocos基础\图像资源\微信图片_20231217191515.jpg@b47c0@40c10background: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: refresh db assets success
+2025-8-11 10:50:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:50:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:50:31-debug: asset-db:worker-effect-data-processing (24ms)
+2025-8-11 10:50:31-debug: asset-db:refresh-all-database (1420ms)
+2025-8-11 10:50:31-debug: asset-db-hook-engine-extends-afterRefresh (25ms)
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.jsonbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\texture.jsonbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-debug: %cImport%c: G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\hexa.tmxbackground: #aaff85; color: #000;color: #000;
+2025-8-11 10:50:31-log: UUID is initialized for G:\CocosProjects\Cocos-Learning\assets\Art\Cocos核心\2D对象\spineboy-pro.png.
+2025-8-11 10:51:56-debug: refresh db internal success
+2025-8-11 10:51:56-debug: refresh db assets success
+2025-8-11 10:51:56-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:51:56-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:51:56-debug: asset-db:refresh-all-database (670ms)
+2025-8-11 10:51:56-debug: asset-db:worker-effect-data-processing (361ms)
+2025-8-11 10:51:56-debug: asset-db-hook-engine-extends-afterRefresh (362ms)
+2025-8-11 10:56:51-debug: refresh db internal success
+2025-8-11 10:56:51-debug: refresh db assets success
+2025-8-11 10:56:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:56:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:56:51-debug: asset-db:refresh-all-database (263ms)
+2025-8-11 10:56:51-debug: asset-db:worker-effect-data-processing (1ms)
+2025-8-11 10:56:51-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-8-11 10:57:05-debug: refresh db internal success
+2025-8-11 10:57:05-debug: refresh db assets success
+2025-8-11 10:57:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-8-11 10:57:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-8-11 10:57:05-debug: asset-db:refresh-all-database (265ms)
+2025-8-11 10:57:05-debug: asset-db:worker-effect-data-processing (2ms)
+2025-8-11 10:57:05-debug: asset-db-hook-engine-extends-afterRefresh (2ms)

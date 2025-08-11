@@ -1,0 +1,13 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "AMD Ryzen 3 2200U with Radeon Vega Mobile Gfx  ",
+        "version": "Windows 10 Pro"
+    },
+    "sceneListMap": {
+        "63ccb18f-eefe-4334-8ab1-6bc55e52a084": "G:\\CocosProjects\\Cocos-Learning\\assets\\Scripts\\Cocos核心\\2D 对象\\UI系统\\UI组件\\UI组件.scene",
+        "fd04cab4-36d9-416c-b800-b853fc71f9ee": "G:\\CocosProjects\\Cocos-Learning\\assets\\Scripts\\Cocos核心\\动画系统\\动画编辑器\\动画编辑器.scene",
+        "60348315-cac1-46a1-952f-6af552ee218e": "G:\\CocosProjects\\Cocos-Learning\\assets\\Scripts\\Cocos核心\\音频系统\\音频系统.scene"
+    },
+    "deviceMd5": "9717d487aaa6f9f9581fc3e34401c920"
+}

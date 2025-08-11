@@ -1,0 +1,6144 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 17853.1478,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/affine-transform",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/graphics",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/mask",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/rich-text",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 14
+            },
+            "end": {
+              "line": 29,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui-skew",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 14
+            },
+            "end": {
+              "line": 30,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 14
+            },
+            "end": {
+              "line": 31,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 14
+            },
+            "end": {
+              "line": 32,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/affine-transform"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/graphics"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/mask"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/rich-text"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui-skew"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 51919653.0796,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 133
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 138
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 142
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 139
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 133
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 126
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson13_.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson14_.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson15_.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson16_.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson17_.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83%E4%B8%8E%E7%A4%BA%E4%BE%8B/Lesson18_.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 246
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson04_.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson05_.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson06_.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson07_.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson08_.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson09_.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson10_.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 7
+            },
+            "end": {
+              "line": 22,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson11_.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 7
+            },
+            "end": {
+              "line": 23,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Player.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson01_.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 7
+            },
+            "end": {
+              "line": 25,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson02_.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 7
+            },
+            "end": {
+              "line": 26,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson03_.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 7
+            },
+            "end": {
+              "line": 27,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/say_hello.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E8%BF%9B%E9%98%B6/Lesson12_.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 219
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E5%8A%A8%E7%94%BB%E7%B3%BB%E7%BB%9F/%E5%8A%A8%E7%94%BB%E7%BC%96%E8%BE%91%E5%99%A8/Lesson01_Animation.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 192
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E5%8A%A8%E7%94%BB%E7%B3%BB%E7%BB%9F/%E5%8A%A8%E7%94%BB%E7%BC%96%E8%BE%91%E5%99%A8/setupMaterialPropertyTrack.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 7
+            },
+            "end": {
+              "line": 31,
+              "column": 200
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioController.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 7
+            },
+            "end": {
+              "line": 32,
+              "column": 143
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioMgr.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 7
+            },
+            "end": {
+              "line": 33,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson19_.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson20_.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson21_.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 7
+            },
+            "end": {
+              "line": 36,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson22_.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson23_.ts",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson24_.ts",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 7
+            },
+            "end": {
+              "line": 39,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson25_.ts",
+          "resolved": "__unresolved_36",
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 7
+            },
+            "end": {
+              "line": 40,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson26_.ts",
+          "resolved": "__unresolved_37",
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 7
+            },
+            "end": {
+              "line": 41,
+              "column": 148
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson27_TiledMap.ts",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 7
+            },
+            "end": {
+              "line": 42,
+              "column": 156
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson28_TiledTile.ts",
+          "resolved": "__unresolved_39",
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 7
+            },
+            "end": {
+              "line": 43,
+              "column": 157
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson29_MotionStreak.ts",
+          "resolved": "__unresolved_40",
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 7
+            },
+            "end": {
+              "line": 44,
+              "column": 160
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson30_Canvas.ts",
+          "resolved": "__unresolved_41",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson31_UITransform.ts",
+          "resolved": "__unresolved_42",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 7
+            },
+            "end": {
+              "line": 46,
+              "column": 177
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson32_Widget.ts",
+          "resolved": "__unresolved_43",
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 7
+            },
+            "end": {
+              "line": 47,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson33_Button.ts",
+          "resolved": "__unresolved_44",
+          "loc": {
+            "start": {
+              "line": 48,
+              "column": 7
+            },
+            "end": {
+              "line": 48,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson34_Layout.ts",
+          "resolved": "__unresolved_45",
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 7
+            },
+            "end": {
+              "line": 49,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson35_EditBox.ts",
+          "resolved": "__unresolved_46",
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 7
+            },
+            "end": {
+              "line": 50,
+              "column": 173
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson36_ScrollView.ts",
+          "resolved": "__unresolved_47",
+          "loc": {
+            "start": {
+              "line": 51,
+              "column": 7
+            },
+            "end": {
+              "line": 51,
+              "column": 176
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson37_ScrollBar.ts",
+          "resolved": "__unresolved_48",
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 7
+            },
+            "end": {
+              "line": 52,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson38_ProgressBar.ts",
+          "resolved": "__unresolved_49",
+          "loc": {
+            "start": {
+              "line": 53,
+              "column": 7
+            },
+            "end": {
+              "line": 53,
+              "column": 177
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson39_LabelOutline.ts",
+          "resolved": "__unresolved_50",
+          "loc": {
+            "start": {
+              "line": 54,
+              "column": 7
+            },
+            "end": {
+              "line": 54,
+              "column": 178
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson40_LabelShadow.ts",
+          "resolved": "__unresolved_51",
+          "loc": {
+            "start": {
+              "line": 55,
+              "column": 7
+            },
+            "end": {
+              "line": 55,
+              "column": 177
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson41_Toggle.ts",
+          "resolved": "__unresolved_52",
+          "loc": {
+            "start": {
+              "line": 56,
+              "column": 7
+            },
+            "end": {
+              "line": 56,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson42_ToggleContainer.ts",
+          "resolved": "__unresolved_53",
+          "loc": {
+            "start": {
+              "line": 57,
+              "column": 7
+            },
+            "end": {
+              "line": 57,
+              "column": 181
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson43_Slider.ts",
+          "resolved": "__unresolved_54",
+          "loc": {
+            "start": {
+              "line": 58,
+              "column": 7
+            },
+            "end": {
+              "line": 58,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson44_PageView.ts",
+          "resolved": "__unresolved_55",
+          "loc": {
+            "start": {
+              "line": 59,
+              "column": 7
+            },
+            "end": {
+              "line": 59,
+              "column": 174
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson45_PageViewIndicator.ts",
+          "resolved": "__unresolved_56",
+          "loc": {
+            "start": {
+              "line": 60,
+              "column": 7
+            },
+            "end": {
+              "line": 60,
+              "column": 183
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson46_UIMeshRenderer.ts",
+          "resolved": "__unresolved_57",
+          "loc": {
+            "start": {
+              "line": 61,
+              "column": 7
+            },
+            "end": {
+              "line": 61,
+              "column": 180
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson47_UICoordinateTracker.ts",
+          "resolved": "__unresolved_58",
+          "loc": {
+            "start": {
+              "line": 62,
+              "column": 7
+            },
+            "end": {
+              "line": 62,
+              "column": 185
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson48_UIOpacity.ts",
+          "resolved": "__unresolved_59",
+          "loc": {
+            "start": {
+              "line": 63,
+              "column": 7
+            },
+            "end": {
+              "line": 63,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson49_UISkew.ts",
+          "resolved": "__unresolved_60",
+          "loc": {
+            "start": {
+              "line": 64,
+              "column": 7
+            },
+            "end": {
+              "line": 64,
+              "column": 172
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson50_BlockInputEvents.ts",
+          "resolved": "__unresolved_61",
+          "loc": {
+            "start": {
+              "line": 65,
+              "column": 7
+            },
+            "end": {
+              "line": 65,
+              "column": 182
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson51_WebView.ts",
+          "resolved": "__unresolved_62",
+          "loc": {
+            "start": {
+              "line": 66,
+              "column": 7
+            },
+            "end": {
+              "line": 66,
+              "column": 173
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson52_VideoPlayer.ts",
+          "resolved": "__unresolved_63",
+          "loc": {
+            "start": {
+              "line": 67,
+              "column": 7
+            },
+            "end": {
+              "line": 67,
+              "column": 177
+            }
+          }
+        },
+        {
+          "value": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson53_SafeArea.ts",
+          "resolved": "__unresolved_64",
+          "loc": {
+            "start": {
+              "line": 68,
+              "column": 7
+            },
+            "end": {
+              "line": 68,
+              "column": 174
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson13_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson14_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson15_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson16_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson17_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83%E4%B8%8E%E7%A4%BA%E4%BE%8B/Lesson18_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson04_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson05_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson06_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson07_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson08_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson09_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson10_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson11_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Player.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson01_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson02_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson03_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/say_hello.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E8%BF%9B%E9%98%B6/Lesson12_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E5%8A%A8%E7%94%BB%E7%B3%BB%E7%BB%9F/%E5%8A%A8%E7%94%BB%E7%BC%96%E8%BE%91%E5%99%A8/Lesson01_Animation.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E5%8A%A8%E7%94%BB%E7%B3%BB%E7%BB%9F/%E5%8A%A8%E7%94%BB%E7%BC%96%E8%BE%91%E5%99%A8/setupMaterialPropertyTrack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioMgr.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson19_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson20_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson21_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson22_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson23_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson24_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson25_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson26_.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson27_TiledMap.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson28_TiledTile.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson29_MotionStreak.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson30_Canvas.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson31_UITransform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson32_Widget.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson33_Button.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson34_Layout.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson35_EditBox.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson36_ScrollView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson37_ScrollBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson38_ProgressBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson39_LabelOutline.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson40_LabelShadow.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson41_Toggle.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson42_ToggleContainer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson43_Slider.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson44_PageView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson45_PageViewIndicator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson46_UIMeshRenderer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson47_UICoordinateTracker.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson48_UIOpacity.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson49_UISkew.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson50_BlockInputEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson51_WebView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson52_VideoPlayer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson53_SafeArea.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1751205911689.4153,
+        "uuid": "11f3130e-c08c-47bb-a209-71d114594e6d"
+      },
+      "chunkId": "7ca849c8fec523796e62109ecae84fb3f1c4bc8a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-pass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1751205911706.2925,
+        "uuid": "6f94083c-fc92-438b-a15b-a20ec61666c7"
+      },
+      "chunkId": "3b4ff3802f754e60b9ba71e1887ff4fd790c564e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 40
+            },
+            "end": {
+              "line": 32,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 23
+            },
+            "end": {
+              "line": 34,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+      "mTimestamp": {
+        "mtime": 1751205911707.4077,
+        "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
+      },
+      "chunkId": "ce01ac2979a04e6c6ca1742f545f52e755cbd688",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+      "mTimestamp": {
+        "mtime": 1751205911712.2625,
+        "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
+      },
+      "chunkId": "6910ceba28843f530bc596dbe77288295171cb1e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 41
+            },
+            "end": {
+              "line": 31,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+      "mTimestamp": {
+        "mtime": 1751205911714.6895,
+        "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
+      },
+      "chunkId": "af5aa4eb94f42c32f19cdc7c50c828243e7946b5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 30
+            },
+            "end": {
+              "line": 31,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 7
+            },
+            "end": {
+              "line": 36,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosEditors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1751205912276.24,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "db796e3f04381e66dc526ffd205aba8acfe8bda4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1754828727505,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/say_hello.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143519.0537,
+        "uuid": "5b0483fa-7d7a-41f6-8c36-ae029cff1091"
+      },
+      "chunkId": "acb370bc4fdf250689306f997f0ffc0b704be076",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson01_%E7%BB%84%E4%BB%B6%E7%B1%BB%E8%A3%85%E9%A5%B0%E5%99%A8.ts": {
+      "mTimestamp": {
+        "mtime": 1754578857494.173,
+        "uuid": "10d6b34e-c01a-4f51-8210-40bad5966266"
+      },
+      "chunkId": "f4c4c562a52a2dbbac56cb7d3b14ea587640cccd",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 133
+            },
+            "end": {
+              "line": 1,
+              "column": 137
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson01_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143504.0537,
+        "uuid": "10d6b34e-c01a-4f51-8210-40bad5966266"
+      },
+      "chunkId": "bb574b207ec5e62038acbfc5c493fccc2599255f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 133
+            },
+            "end": {
+              "line": 1,
+              "column": 137
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson02_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143509.0554,
+        "uuid": "86c069dc-3530-4bae-9936-4710d3181b4a"
+      },
+      "chunkId": "7c160f9e9e6ef09c04425f3090d9ef956f17048b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/Lesson03_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143513.0532,
+        "uuid": "b1fb308c-fc76-46ee-a9d9-45e1f58641e1"
+      },
+      "chunkId": "ac3ae33024ccb478a3c1604c1d49a589b3867112",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson04_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143447.6035,
+        "uuid": "49818b00-5034-4d51-9b22-e48790632e0b"
+      },
+      "chunkId": "7de1b7d5634b246a3774594bbcbabf96610ff8ea",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 57
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "./Player",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Player.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Player.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143488.0513,
+        "uuid": "08c74240-e841-4a77-b322-26c00eaa5385"
+      },
+      "chunkId": "d32e9cba9292d7c6f7dc5826defd2fd617642667",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson05_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143453.6035,
+        "uuid": "24fef280-74e0-4d1d-b65a-ca677fa41f26"
+      },
+      "chunkId": "947997389891fc1bc64af406588037ae865a5683",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 50
+            },
+            "end": {
+              "line": 2,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson06_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143457.604,
+        "uuid": "41886ab4-b612-445a-b0c5-e523409b6cea"
+      },
+      "chunkId": "464c7e50106d5472226625137eede0d0cac49164",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 75
+            },
+            "end": {
+              "line": 2,
+              "column": 79
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson07_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143462.6052,
+        "uuid": "75ab266c-2157-489b-9a75-5c6e72965b5a"
+      },
+      "chunkId": "db10dbd315a51039f3ebd667b64efbfa7826439c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson08_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143469.0498,
+        "uuid": "491b2a5c-721c-4b38-9111-dd9658241fc8"
+      },
+      "chunkId": "0f0a80d01506d60ef83f1313a1914f18c589ffb0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 44
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson09_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143474.0503,
+        "uuid": "c7f10a7d-5fd3-4cff-91b0-ed08ec041f18"
+      },
+      "chunkId": "a7edd9a0f7b6514869e3737a282b41be6f402d99",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 82
+            },
+            "end": {
+              "line": 2,
+              "column": 86
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson10_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143478.0508,
+        "uuid": "76fe3a37-3741-4cf4-a46a-2dabb3135f08"
+      },
+      "chunkId": "637325e414e08c488ef6bae546098ab8f8a3b83a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 96
+            },
+            "end": {
+              "line": 2,
+              "column": 100
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson11_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143484.0518,
+        "uuid": "c8975b67-978b-4579-80d7-33e58e08a085"
+      },
+      "chunkId": "d024b1ddc54ea2cd08d6f7214c2410d4a37c37c6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8/Lesson12_.ts": {
+      "mTimestamp": {
+        "mtime": 1754634809696.77,
+        "uuid": "fbaa09c4-7cbf-44fe-84a5-15a41dc1e40b"
+      },
+      "chunkId": "665e0eae8d7b2edaf44e9da24adb5c94a981ac6f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E8%84%9A%E6%9C%AC%E8%BF%9B%E9%98%B6/Lesson12_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143534.056,
+        "uuid": "fbaa09c4-7cbf-44fe-84a5-15a41dc1e40b"
+      },
+      "chunkId": "4c75aa7453864b272f230b98c2ff6d93b4f5f7b4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson13_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143396.697,
+        "uuid": "bccf0d60-39bd-41dc-b5a0-0e72172c524c"
+      },
+      "chunkId": "3d8bb03ee38417b99b36f39ef50f6a2bef90bd48",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 51
+            },
+            "end": {
+              "line": 2,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson14_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143403.6975,
+        "uuid": "41bfdeda-c3fc-4467-ad08-aa79130a672b"
+      },
+      "chunkId": "efe0e5946ef52bed3b1e72e3b32f03e52bba7560",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 11
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson15_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143408.6975,
+        "uuid": "3805be3b-14ed-4e3f-957e-3b1ad560abb8"
+      },
+      "chunkId": "7f398307c18db8fab67f579296238ce46c6c9f04",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 11
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson16_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143412.6987,
+        "uuid": "e18d278f-0277-4e03-a4c2-fd800f763370"
+      },
+      "chunkId": "76be6dc243b10c64781aa5e3edbd5fbef7521485",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 53
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F/Lesson17_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143419.698,
+        "uuid": "c2984f31-aa21-4096-85f7-30b5df0a1e37"
+      },
+      "chunkId": "4395a52167425db75eb6cd964571cb291270e146",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 11
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E5%9F%BA%E7%A1%80/%E8%84%9A%E6%9C%AC%E6%8C%87%E5%8D%97%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83%E4%B8%8E%E7%A4%BA%E4%BE%8B/Lesson18_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143433.7007,
+        "uuid": "11f07d03-a21c-4797-acd1-3530d65260ac"
+      },
+      "chunkId": "57e763d6e674f4298892511c41b5d48a46968f99",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 74
+            },
+            "end": {
+              "line": 3,
+              "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson19_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143555.0574,
+        "uuid": "559e0746-bcd8-4347-a118-97483e660a5e"
+      },
+      "chunkId": "c7ede7d4db63cb437eb9f82bcea3ec1052eae646",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 97
+            },
+            "end": {
+              "line": 2,
+              "column": 101
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson20_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143560.2866,
+        "uuid": "b8f7f341-c92a-40c1-abc1-99ac722a4b0d"
+      },
+      "chunkId": "758dac88e7cf8cacfc6b36e902228f6fb874efeb",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 85
+            },
+            "end": {
+              "line": 2,
+              "column": 89
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson21_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143564.2866,
+        "uuid": "71c1c176-41f0-4ccc-a687-a1c537d7226b"
+      },
+      "chunkId": "567174cfcf0f93d89c1f40dd922616d69e92945a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 71
+            },
+            "end": {
+              "line": 2,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson22_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143570.288,
+        "uuid": "b0a0c788-6607-4460-aca2-715f7dd6a780"
+      },
+      "chunkId": "df9119064824a42ad37a530fa13e9b8fb6963d3f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 67
+            },
+            "end": {
+              "line": 2,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson23_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143574.294,
+        "uuid": "bd1ace95-67e5-4650-968e-54ab91856651"
+      },
+      "chunkId": "b3aa0229b1041f352e1de448329bb2bb9c7e6ea6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 79
+            },
+            "end": {
+              "line": 2,
+              "column": 83
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson24_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143578.2876,
+        "uuid": "650174b1-3156-4848-95eb-a17c4738ea4b"
+      },
+      "chunkId": "52032850753dc08d80f97254a7c66efb3d86623a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 74
+            },
+            "end": {
+              "line": 2,
+              "column": 78
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson25_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143583.289,
+        "uuid": "e705671d-5890-4ca4-82d2-1d8fc517f36c"
+      },
+      "chunkId": "e5473a040dcf5073c0a21351e9377e8f5860aa4b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 64
+            },
+            "end": {
+              "line": 2,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson26_.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143588.2893,
+        "uuid": "40967aa8-2214-4bc6-9bed-4c280547922c"
+      },
+      "chunkId": "2e295a5294e0540528c50bbd2447c522721cfcdc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 73
+            },
+            "end": {
+              "line": 2,
+              "column": 77
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson27_.ts": {
+      "mTimestamp": {
+        "mtime": 1754730979537.0413,
+        "uuid": "44d73d28-f7f1-47a3-a9e0-807d75fa3aa2"
+      },
+      "chunkId": "ba4e24085f1d0717f202c244bab56fd517e3f69c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 85
+            },
+            "end": {
+              "line": 2,
+              "column": 89
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson28_.ts": {
+      "mTimestamp": {
+        "mtime": 1754731801197.807,
+        "uuid": "d9dd36f1-1aca-45ee-a4c2-45faa0c31734"
+      },
+      "chunkId": "1ed3d8b5ac976381843f5fe63d8e0eeb840bdb2c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 65
+            },
+            "end": {
+              "line": 2,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson29_.ts": {
+      "mTimestamp": {
+        "mtime": 1754733296230.684,
+        "uuid": "284040a1-c739-42e9-92c6-9d0a90891112"
+      },
+      "chunkId": "3b6010b1542e246d7e517c31744581e72f6a2456",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 81
+            },
+            "end": {
+              "line": 2,
+              "column": 85
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson01_Canvas.ts": {
+      "mTimestamp": {
+        "mtime": 1754733432217.066,
+        "uuid": "d81eabeb-c2cf-489f-a23b-aa1004860761"
+      },
+      "chunkId": "87f30434cb980ff6c8453ece15866294da2dec55",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson30_Canvas.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143618.2915,
+        "uuid": "65dcbbbc-c094-4b89-9686-ff504eeaf40c"
+      },
+      "chunkId": "02558fc93e6efaef5592e947cd92f35cc77078eb",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 87
+            },
+            "end": {
+              "line": 3,
+              "column": 91
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson27_TiledMap.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143592.2893,
+        "uuid": "136b6022-1a0a-456a-8aa5-e29930986f9c"
+      },
+      "chunkId": "653a9b2bb4937f84fcf5d83cc9bfd618fab2c5a8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 85
+            },
+            "end": {
+              "line": 2,
+              "column": 89
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson28_TiledTile.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143599.2932,
+        "uuid": "19b62373-e767-4140-b593-0b4fc4b1e712"
+      },
+      "chunkId": "11fac49c7020b836129cedab7d819dfc27d32afe",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 65
+            },
+            "end": {
+              "line": 2,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/2D%20%E6%B8%B2%E6%9F%93/Lesson29_MotionStreak.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143604.2913,
+        "uuid": "c6f19f6e-abb0-4274-b5bd-804dd3168884"
+      },
+      "chunkId": "8c2ef1456f56341c1ea7343cd5bbc39d72093e6b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 81
+            },
+            "end": {
+              "line": 2,
+              "column": 85
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson31_UITransform.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143623.292,
+        "uuid": "a775e065-e75c-4f95-bdbd-ab1a13813cf8"
+      },
+      "chunkId": "b08e75a51caee46a6342637b962809ef058c8a71",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 82
+            },
+            "end": {
+              "line": 2,
+              "column": 86
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson32_Widget.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143628.2937,
+        "uuid": "10773938-8cd6-422a-b456-986be233cad7"
+      },
+      "chunkId": "a8e9de9820523dc1f3e58de70125f7fa36e4f7d4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 81
+            },
+            "end": {
+              "line": 3,
+              "column": 85
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson33_Button.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143634.294,
+        "uuid": "64247f19-acd9-494d-b190-d2597d10a6d7"
+      },
+      "chunkId": "1851d7e1ec867a6d73b7734b9e03884e416be29c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 99
+            },
+            "end": {
+              "line": 3,
+              "column": 103
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson34_Layout.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143638.293,
+        "uuid": "3b41d951-687c-42e8-9791-0cfc3b149d8a"
+      },
+      "chunkId": "9af6dde59f2c37910c6ecffebd788c69e3304b6f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 84
+            },
+            "end": {
+              "line": 3,
+              "column": 88
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson35_EditBox.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143643.2932,
+        "uuid": "8dd19db9-9641-402c-8b3e-69767c3eb3d6"
+      },
+      "chunkId": "7257b7d76bfedb1f2019a2fa4a6c972cf46bedcb",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 80
+            },
+            "end": {
+              "line": 3,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson36_ScrollView.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143649.297,
+        "uuid": "faffbe9d-ae3d-42ca-81c0-2bcc2c66e0ac"
+      },
+      "chunkId": "4c20901b13ae02c58c8b215b19a9839aeb483194",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 87
+            },
+            "end": {
+              "line": 3,
+              "column": 91
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson37_ScrollBar.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143654.227,
+        "uuid": "d60d1f44-86f2-47cd-a145-aaa3d19d7c92"
+      },
+      "chunkId": "a7e8f1c2c7dab301601563fa2285f45efc2b37b4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 80
+            },
+            "end": {
+              "line": 3,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson38_ProgressBar.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143659.2288,
+        "uuid": "83696b07-060c-4230-a57a-4efba0f1f028"
+      },
+      "chunkId": "9a15729447a31b601b8cfbf001d555b0427aa2dc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson39_LabelOutline.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143663.519,
+        "uuid": "3a231e81-e768-4254-a95e-cdf202b83d0d"
+      },
+      "chunkId": "ac36db97c72743f0fddbd2b16838ea5abb1147a4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 71
+            },
+            "end": {
+              "line": 3,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson40_LabelShadow.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143670.4817,
+        "uuid": "16eeb8bc-f0b7-4048-b332-0ac028982711"
+      },
+      "chunkId": "c61977ed364d07bc3af4752301950ef6eed00d66",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 76
+            },
+            "end": {
+              "line": 3,
+              "column": 80
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson41_Toggle.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143675.4814,
+        "uuid": "722c02a5-f1df-4205-a70b-60cf27976105"
+      },
+      "chunkId": "2112f054b4eaa3fafd8989fbb8504850d839635a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 96
+            },
+            "end": {
+              "line": 3,
+              "column": 100
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson42_ToggleContainer.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143680.4812,
+        "uuid": "95ddf77d-a229-4ed0-8d33-3bb4df55569a"
+      },
+      "chunkId": "2cd9deb17d05fe51574d6ec4135d449e3c416cb5",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 68
+            },
+            "end": {
+              "line": 3,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson43_Slider.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143686.4817,
+        "uuid": "3846d9e4-c140-4d87-aa78-e9adb72aecbe"
+      },
+      "chunkId": "52b6697e556951cdf756f6bff6e0660329ca6094",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 71
+            },
+            "end": {
+              "line": 3,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/NewComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1754793801050.0188,
+        "uuid": "104d6803-edcd-4556-acac-05f4f73a580b"
+      },
+      "chunkId": "e14deb68b18663896c1c3345c798d3397fd58b68",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson44_PageView.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143691.4832,
+        "uuid": "104d6803-edcd-4556-acac-05f4f73a580b"
+      },
+      "chunkId": "52f0833da5588c864e952c825dbb815adc39e766",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 79
+            },
+            "end": {
+              "line": 3,
+              "column": 83
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson45_PageViewIndicator.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143696.483,
+        "uuid": "a8134995-225f-422c-b6c0-2b64f7e9ac86"
+      },
+      "chunkId": "e7663166cf3a29edfd386678a3fc2941e3f9a265",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 84
+            },
+            "end": {
+              "line": 3,
+              "column": 88
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson46_UIMeshRenderer.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143703.483,
+        "uuid": "b183dc48-683b-46a1-b4fa-249a38427a4b"
+      },
+      "chunkId": "c595939b82f17fc667363b66f174e80d8da68715",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 59
+            },
+            "end": {
+              "line": 3,
+              "column": 63
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson47_UICoordinateTracker.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143707.483,
+        "uuid": "cfa6f776-a834-462f-83eb-12471f9996e8"
+      },
+      "chunkId": "47f609fb2c1f504a0c381441067ac68b96ea2671",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 90
+            },
+            "end": {
+              "line": 3,
+              "column": 94
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson48_UIOpacity.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143712.4856,
+        "uuid": "72122b4c-2911-4a33-881c-60a4eb9e1f24"
+      },
+      "chunkId": "2add4b7d39aa1f3201d86b8df164151e5527b211",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 54
+            },
+            "end": {
+              "line": 3,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson49_UISkew.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143718.484,
+        "uuid": "0e927b01-9502-4a96-9c91-6bb35d47b905"
+      },
+      "chunkId": "80930e198e99b992d8b22f0084916948f421b8ee",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 57
+            },
+            "end": {
+              "line": 3,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson50_BlockInputEvents.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143723.485,
+        "uuid": "3574fd69-091c-4b52-b19b-44dbc731f282"
+      },
+      "chunkId": "5ca03a20717471a86737f886d77d44ebbeb55191",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson51_WebView.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143728.4854,
+        "uuid": "6948eecf-42d7-425e-a7ca-41385f8a2e1b"
+      },
+      "chunkId": "9e346d777daa80a908989cdce382149a539ab017",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson52_VideoPlayer.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143733.4858,
+        "uuid": "dc14e665-8bf6-4f8a-83ee-6630cf71ceff"
+      },
+      "chunkId": "80ed4a220dcfd640f029242d338ff01ad85e9209",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/2D%20%E5%AF%B9%E8%B1%A1/UI%E7%B3%BB%E7%BB%9F/UI%E7%BB%84%E4%BB%B6/Lesson53_SafeArea.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143737.485,
+        "uuid": "579d872e-4be7-4933-8737-ffa5c3a1c951"
+      },
+      "chunkId": "be5925bc2ca5ac109f46a6f9f37558c158640a16",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E5%8A%A8%E7%94%BB%E7%B3%BB%E7%BB%9F/%E5%8A%A8%E7%94%BB%E7%BC%96%E8%BE%91%E5%99%A8/Lesson01_Animation.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143758.8499,
+        "uuid": "c6c48665-75d5-4edd-b237-d2e4c05c1822"
+      },
+      "chunkId": "0b9f9a40954e11c1e2eeb9841ad2b1616239c874",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 86
+            },
+            "end": {
+              "line": 1,
+              "column": 90
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E5%8A%A8%E7%94%BB%E7%B3%BB%E7%BB%9F/%E5%8A%A8%E7%94%BB%E7%BC%96%E8%BE%91%E5%99%A8/setupMaterialPropertyTrack.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143762.6755,
+        "uuid": "8ca8303c-c690-467b-bd61-03728b988f88"
+      },
+      "chunkId": "698636575e9a510e677ddd3179a7a56936cd0686",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioController.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143790.679,
+        "uuid": "bd9c4e38-81dd-493a-bb7f-8cc3a9335472"
+      },
+      "chunkId": "6d5b9af7d5c7dcf2ebaa2eaf3de1314d6c3ca2f3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 76
+            },
+            "end": {
+              "line": 1,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "./AudioMgr",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioMgr.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/CocosProjects/Cocos-Learning/assets/Scripts/Cocos%E6%A0%B8%E5%BF%83/%E9%9F%B3%E9%A2%91%E7%B3%BB%E7%BB%9F/AudioMgr.ts": {
+      "mTimestamp": {
+        "mtime": 1754880143796.6787,
+        "uuid": "514de386-404e-4006-ab37-e247754f30ee"
+      },
+      "chunkId": "9cc84f5192031907f785ac06822ac2c648e8f014",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 66
+            },
+            "end": {
+              "line": 2,
+              "column": 70
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

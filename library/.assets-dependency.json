@@ -1,0 +1,24 @@
+{
+  "uuid": {
+    "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\material.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4"
+    ],
+    "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\spineboy-pro.json": [
+      "80d7ce6f-7be3-4a7a-a2ea-9c21375d8d13@6c48a"
+    ]
+  },
+  "path": {
+    "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\hexa.tmx": [
+      "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\hexa.png"
+    ],
+    "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\texture.json": [
+      "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\texture.png"
+    ],
+    "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\spineboy-pro.json": [
+      "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\spineboy-pro.atlas"
+    ],
+    "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\hexa.tmx": [
+      "G:\\CocosProjects\\Cocos-Learning\\assets\\Art\\Cocos核心\\2D对象\\hexa.png"
+    ]
+  }
+}

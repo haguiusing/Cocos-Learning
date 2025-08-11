@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "hexa",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tileset version=\"1.4\" tiledversion=\"1.4.2\" name=\"hexa\" tilewidth=\"60\" tileheight=\"60\" tilecount=\"12\" columns=\"4\" objectalignment=\"top\">\n <image source=\"hexa.png\" width=\"240\" height=\"180\"/>\n</tileset>\n"
+}
